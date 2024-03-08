@@ -1,19 +1,19 @@
-body{
-    margin: 0;
-    padding: 0; 
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
-    background-color: white;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  background-color: white;
 }
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-img{
+img {
   border-radius: 5%;
 }
 /*Navbar section starts here*/
 .navbar-style {
-  background-color: #EDD1C0;
+  background-color: #edd1c0;
   font-size: 1.15em;
   font-weight: 500;
   color: black;
@@ -26,10 +26,25 @@ img{
 .navbar-style i {
   cursor: pointer;
 }
-/*Navbar section ends here*/
+.tagline {
+  font-size: 14px;
+  font-style: italic;
+  position: relative;
+  top: 20px;
+  left: -15px;
+}
+/* Modal styling ends here */
+/* Footer section styling starts here */
+.footer-tagline {
+  font-size: 14px;
+  font-style: italic;
+  position: relative;
+  left: 30px;
+  top: -15px;
+}
 /* Footer section styling starts here */
 .footer-section {
-  background-color: #EDD1C0;
+  background-color: #edd1c0;
   padding: 40px;
   font-size: 1.12em;
 }
@@ -51,7 +66,7 @@ img{
   outline: none;
   border-bottom: 1px solid black;
   width: 60%;
-  background-color: #EDD1C0;
+  background-color: #edd1c0;
   margin: auto;
 }
 .subscribe-btn {
@@ -69,55 +84,55 @@ img{
 }
 /* Footer section styling ends here */
 /* Hero starts */
-.hero{
-    height: 100vh;
-    font-family: Means Web,Georgia,Times,Times New Roman,serif;
-    background-color: #927661;
+.hero {
+  height: 100vh;
+  font-family: Means Web, Georgia, Times, Times New Roman, serif;
+  background-color: #927661;
 }
-.pic01{
-    border-radius: 15px;
-    /* box-shadow: 2px 5px 2px #a2b9d1; */
+.pic01 {
+  border-radius: 15px;
+  /* box-shadow: 2px 5px 2px #a2b9d1; */
 }
 /* Hero ends */
 /* Story Intro Starts */
-#text{
-    font-size:18px;
-    font-weight: 100;
+#text {
+  font-size: 18px;
+  font-weight: 100;
 }
 #text::first-letter {
-    font-size: xx-large;
-    font-weight: bold;
-  }
+  font-size: xx-large;
+  font-weight: bold;
+}
 
-  .content{
-    margin: 20px;
-  }
+.content {
+  margin: 20px;
+}
 
-  .story{
-    font-size: 18px;
-  }
+.story {
+  font-size: 18px;
+}
 
- .story::first-letter {
-    font-size: xx-large;
-    font-weight: bold;
-  }
+.story::first-letter {
+  font-size: xx-large;
+  font-weight: bold;
+}
 
-  .btn{
-    background-color: #EDD1C0;
-    color: black;
-   /* font-family: 'Open Sans', sans-serif; */
-   border-radius: 4px;
-   border: 0;
-   padding: 0px;
-   text-decoration: none;
+.btn {
+  background-color: #edd1c0;
+  color: black;
+  /* font-family: 'Open Sans', sans-serif; */
+  border-radius: 4px;
+  border: 0;
+  padding: 0px;
+  text-decoration: none;
   height: 36px;
   width: 20%;
   text-align: center;
-   position: relative;
-   font-size: 20px;
-   left: 2%;
-   margin-top:10px;
-  }
+  position: relative;
+  font-size: 20px;
+  left: 2%;
+  margin-top: 10px;
+}
 /* Story Intro Ends */
 
 /* media queries for footer logo starts */
@@ -156,7 +171,6 @@ img{
 }
 /* media queries for footer logo ends */
 
-
 /* Modal styling starts here */
 .modal-dialog input {
   outline: none;
@@ -171,13 +185,12 @@ img{
   background-color: white;
 }
 .submit-btn {
-  background-color: #EDD1C0;
+  background-color: #edd1c0;
   border-radius: 30px;
   padding: 8px;
   width: 25%;
   font-size: 1.05em;
 }
-
 
 .brand-logo {
   width: 20%;
