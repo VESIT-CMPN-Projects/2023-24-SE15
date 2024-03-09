@@ -196,6 +196,9 @@ p {
   margin-bottom: 11px;
 }
 
+#mid-div a:hover{
+  color: white;
+}
 /* .button{
     width: 20%;
 }

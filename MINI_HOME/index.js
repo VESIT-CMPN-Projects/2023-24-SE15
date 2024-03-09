@@ -82,3 +82,20 @@ submitBtn.addEventListener('click', Submit);
 
 
 
+  document.addEventListener("DOMContentLoaded", function() {
+    // Get the "Buy now" buttons
+    var buyNowButtons = document.querySelectorAll(".button");
+
+    // Add click event listeners to each "Buy now" button
+    buyNowButtons.forEach(function(button) {
+      button.addEventListener("click", function() {
+        // Show the product description modal
+        var productModal = new bootstrap.Modal(document.getElementById('productDescriptionModal'));
+        productModal.show();
+      });
+    });
+  });
+
+
+
+
